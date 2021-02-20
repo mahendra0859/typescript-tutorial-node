@@ -1,0 +1,26 @@
+{
+  "name": "typescript-tutorial-node",
+  "version": "1.0.0",
+  "description": "Configure TypeScript in a NodeJS / ExpressJS API ",
+  "main": "index.js",
+  "author": "Mahendra AR",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.28",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
